@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "ts-node src/main.ts",
-    "dev": "nodemon src/main.ts"
+    "dev": "nodemon src/main.ts",
+    "lint": "eslint './src/**/*.ts'"
   },
   "dependencies": {
     "cors": "^2.8.5",
