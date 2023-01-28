@@ -3,5 +3,5 @@ export type Transaction = {
   sender: string | null;
   receiver: string | null;
   amount: number;
-  date: string;
+  timestamp: string;
 };
